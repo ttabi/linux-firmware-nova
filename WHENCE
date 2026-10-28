@@ -1,0 +1,56 @@
+File: nvidia/tu102/gsp/booter_load.tlv
+File: nvidia/tu102/gsp/booter_unload.tlv
+File: nvidia/tu102/gsp/gen_bootloader.tlv
+File: nvidia/tu102/gsp/gsp.bin
+File: nvidia/tu102/gsp/gsp.tlv
+File: nvidia/tu102/gsp/gsp_bootloader.tlv
+Link: nvidia/tu104 -> tu102
+Link: nvidia/tu106 -> tu102
+File: nvidia/tu116/gsp/booter_load.tlv
+File: nvidia/tu116/gsp/booter_unload.tlv
+Link: nvidia/tu116/gsp/gen_bootloader.tlv -> ../../tu102/gsp/gen_bootloader.tlv
+Link: nvidia/tu116/gsp/gsp.bin -> ../../tu102/gsp/gsp.bin
+File: nvidia/tu116/gsp/gsp.tlv
+Link: nvidia/tu116/gsp/gsp_bootloader.tlv -> ../../tu102/gsp/gsp_bootloader.tlv
+Link: nvidia/tu117 -> tu116
+File: nvidia/ga100/gsp/booter_load.tlv
+File: nvidia/ga100/gsp/booter_unload.tlv
+Link: nvidia/ga100/gsp/gen_bootloader.tlv -> ../../tu102/gsp/gen_bootloader.tlv
+Link: nvidia/ga100/gsp/gsp.bin -> ../../tu102/gsp/gsp.bin
+File: nvidia/ga100/gsp/gsp.tlv
+File: nvidia/ga100/gsp/gsp_bootloader.tlv
+File: nvidia/ga102/gsp/booter_load.tlv
+File: nvidia/ga102/gsp/booter_unload.tlv
+File: nvidia/ga102/gsp/gsp.bin
+File: nvidia/ga102/gsp/gsp.tlv
+File: nvidia/ga102/gsp/gsp_bootloader.tlv
+Link: nvidia/ga103 -> ga102
+Link: nvidia/ga104 -> ga102
+Link: nvidia/ga106 -> ga102
+Link: nvidia/ga107 -> ga102
+File: nvidia/ad102/gsp/booter_load.tlv
+File: nvidia/ad102/gsp/booter_unload.tlv
+Link: nvidia/ad102/gsp/gsp.bin -> ../../ga102/gsp/gsp.bin
+File: nvidia/ad102/gsp/gsp.tlv
+File: nvidia/ad102/gsp/gsp_bootloader.tlv
+Link: nvidia/ad103 -> ad102
+Link: nvidia/ad104 -> ad102
+Link: nvidia/ad106 -> ad102
+Link: nvidia/ad107 -> ad102
+File: nvidia/gh100/gsp/fmc.tlv
+Link: nvidia/gh100/gsp/gsp.bin -> ../../ga102/gsp/gsp.bin
+File: nvidia/gh100/gsp/gsp.tlv
+File: nvidia/gh100/gsp/gsp_bootloader.tlv
+File: nvidia/gb100/gsp/fmc.tlv
+Link: nvidia/gb100/gsp/gsp.bin -> ../../ga102/gsp/gsp.bin
+File: nvidia/gb100/gsp/gsp.tlv
+File: nvidia/gb100/gsp/gsp_bootloader.tlv
+Link: nvidia/gb102 -> gb100
+File: nvidia/gb202/gsp/fmc.tlv
+Link: nvidia/gb202/gsp/gsp.bin -> ../../ga102/gsp/gsp.bin
+File: nvidia/gb202/gsp/gsp.tlv
+File: nvidia/gb202/gsp/gsp_bootloader.tlv
+Link: nvidia/gb203 -> gb202
+Link: nvidia/gb205 -> gb202
+Link: nvidia/gb206 -> gb202
+Link: nvidia/gb207 -> gb202
